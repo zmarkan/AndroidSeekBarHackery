@@ -29,16 +29,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.2.0'
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     compile 'com.jakewharton.timber:timber:4.1.1'
-}
-buildscript {
-    ext.kotlin_version = '1.0.0'
-    repositories {
-        mavenCentral()
-    }
-    dependencies {
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-    }
-}
-repositories {
-    mavenCentral()
+    compile project(path: ':boundableslider')
 }

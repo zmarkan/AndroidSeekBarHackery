@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PriceFilterSpike.iml" filepath="$PROJECT_DIR$/PriceFilterSpike.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boundableslider/boundableslider.iml" filepath="$PROJECT_DIR$/boundableslider/boundableslider.iml" />
     </modules>
   </component>
 </project>
